@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/journal"
+            android:icon="@drawable/journal"
+            android:title="Journal" />
+        <item
+            android:id="@+id/anxietyList"
+            android:icon="@drawable/anxiety1"
+            android:title="Anxiety List" />
+        <item
+            android:id="@+id/hotline"
+            android:icon="@drawable/hotline"
+            android:title="Emergency Hotline" />
+    </group>
+
+    <item android:title="Website">
+        <menu>
+            <item
+                android:id="@+id/setting1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Website link" />
+            <item
+                android:id="@+id/setting2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Social media links" />
+
+        </menu>
+    </item>
+
+</menu>
