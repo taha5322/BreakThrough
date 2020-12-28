@@ -65,7 +65,6 @@ public class ChatroomActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     private void sendMsg(String theNumber, String myMsg) {
